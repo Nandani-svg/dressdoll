@@ -42,3 +42,46 @@ h = true;
 dresses.disabled = false;
 hairs.disabled = true;
 })
+function s1(){
+h1.style.opacity="1";
+h2.style.opacity="0";
+h3.style.opacity="0";
+h4.style.opacity="0";
+h5.style.opacity="0";
+head.style.width="90px";
+head.style.height="120px";
+head.style.border.radius = "20px";
+head.style.top = "100px";
+head.style.left = "440px";
+d4.style.left = "340px";
+d4.style.top = "145px";
+d5.style.left= "325px";
+d5.style.top = "145px";
+}
+function s2(){
+h2.style.opacity = "1";
+h1.style.opacity = "0";
+h3.style.opacity = "0";
+h4.style.opacity = "0";
+h5.style.opacity = "0";
+head.style.width = "70px";
+head.style.height = "120px";
+head.style.top = "110px";
+head.style.left = "450px";
+d4.style.left = "340px";
+d4.style.top = "150px";
+d5.style.left = "320px";
+d5.style.top = "150px";
+}
+function s3(){
+h1.style.opacity = "0";
+h2.style.opacity = "0";
+h3.style.opacity = "1";
+h4.style.opacity = "0";
+h5.style.opacity = "0";
+head.style.width = "110px";
+head.style.height = "120px";
+head.style.borderRadius = "100px";
+head.style.top = "110px";
+head.style.left = "430px";
+}
