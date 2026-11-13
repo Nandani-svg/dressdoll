@@ -85,3 +85,43 @@ head.style.borderRadius = "100px";
 head.style.top = "110px";
 head.style.left = "430px";
 }
+function s4() {
+h1.style.opacity = "0";
+h2.style.opacity = "0";
+h3.style.opacity = "0";
+h4.style.opacity = "1";
+h5.style.opacity = "0";
+head.style.width = "60px";
+head.style.height = "100px";
+head.style.borderRadius = "100%";
+head.style.left = "454px";
+head.style.top = "130px";
+d5.style.left = "324px";
+}
+function s5() {
+h1.style.opacity = "0";
+h2.style.opacity = "0";
+h3.style.opacity = "0";
+h4.style.opacity = "0";
+h5.style.opacity = "1";
+head.style.width = "100px";
+head.style.height = "140px";
+head.style.borderRadius = "50px";
+head.style.left = "430px";
+head.style.top = "100px";
+}
+let hairindex = 0;
+let currentIndex = 0;
+let darray = [d1,d2,d3,d4,d5];
+let harray = [s1,s2,s3,s4,s5] ;
+arrow.addEventListener("click", ()=>{
+    if(c===true) {
+darray[currentIndex].style.opacity = "0";
+        currentIndex = (currentIndex + 1) % darray.length;
+        darray[currentIndex].style.opacity = "1";
+    };
+    if(h===true) {
+        hairindex = (hairindex + 1) % harray.length;
+        harray[hairindex]();
+    }
+});
