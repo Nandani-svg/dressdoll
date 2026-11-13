@@ -100,3 +100,67 @@ top: 190px;
 z-index: 5;
 opacity: 0;
 }
+#hair1{
+position: absolute;
+left: 360px;
+overflow: hidden;
+width: 256px;
+height: 276;
+z-index: 7;
+opacity: 1;
+top: 50px;
+}
+#hair2{
+position: absolute;
+left: 395px;
+z-index: 7;
+width: 200px;
+height: 200px;
+top: 60px;
+opacity: 0;
+}
+#hair3{
+position: absolute;
+left: 370px;
+top: 40px;
+z-index: 7;
+width: 200px;
+height: 200px;
+opacity:0;
+}
+#hair4{
+position: absolute;
+left: 360px;
+top: 60px;
+z-index: 7;
+opacity:0;
+}
+#dress3{
+position: absolute;
+left: 310px;
+top: 175px;
+z-index: 6;
+opacity: 0;
+}
+#hair5{
+position: absolute;
+left: 370px;
+top: 70px;
+z-index: 7;
+opacity : 0;
+
+}
+#dress5{
+opacity: 0;
+position: absolute;
+left: 325px;
+top: 145px;
+z-index: 6;
+}
+#dress4{
+opacity: 0;
+position: absolute;
+left: 340px;
+top: 145px;
+z-index: 6;
+}
