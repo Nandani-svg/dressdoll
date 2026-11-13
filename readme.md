@@ -7,7 +7,6 @@ it has 5 dresses, 5 hairstyle and alot(ton(ton)) of skintones in it.
 - Css
 - Js
 ## Live link
-
+[link](https://dressdoll.vercel.app/)
 ## Some screenshots
 <img alt="image"  src="images/screen1 (1).png">
-<img alt="image" src="images/screen1 (2).png>s
